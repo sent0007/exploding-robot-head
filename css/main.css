@@ -24,7 +24,6 @@ body {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-
 }
 
 .robot-body {
@@ -40,7 +39,6 @@ body {
   top: 60px;
 
 }
-
 .robot-head-right,
 .robot-head-left {
   width: 125px;
