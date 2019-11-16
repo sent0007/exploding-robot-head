@@ -15,23 +15,43 @@ body {
 
 .banner {
   background-color: #2b3851;
+  height: 239px;
+  position: relative;
 }
 
 .robot {
   width: 320px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 
 }
 
 .robot-body {
   width: 320px;
-
+  position: absolute;
+  top: 3.4em;
 }
 
 .robot-brain {
+  position: absolute;
   width: 46px;
+  left: 137px;
+  top: 60px;
+
 }
 
 .robot-head-right,
 .robot-head-left {
   width: 125px;
+  position: absolute;
+  top: 1em;
+}
+
+.robot-head-right {
+  left: 160px;
+}
+
+.robot-head-left {
+  left: 35px;
 }
